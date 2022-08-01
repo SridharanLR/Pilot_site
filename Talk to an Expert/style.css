@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Euclid, sans-serif;
+}
+
+.tdec {
+    text-decoration: none;
+}
+
+.menu-parent {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: .99999;
+}
+
+.top-bar {
+    max-width: 100%;
+    height: 50px;
+    background-color: #3c2d89;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.top-bar a {
+    color: #3da291;
+}
+
+.menu-container {
+    max-width: 100%;
+    height: 80px;
+    box-shadow: 0 2px 20px 1px #babafc7c;
+}
+
+.menu-bar {
+    max-width: 80%;
+    height: 80px;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar ul li {
+    margin-left: 50px;
+}
+
+.menu-bar .first-ul li:first-child {
+    margin: 0;
+    font-size: xx-large;
+    color: #3c2d89;
+}
+
+.menu-bar .second-ul li:first-child {
+    color: #3c2d89;
+}
+
+.menu-bar .second-ul li:nth-child(2) {
+    background-color: #5f2ee5;
+    padding: 15px 25px;
+    color: #ffff;
+    border-radius: 3px;
+}
+
+.body-section {
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-1 {
+    width: 50%;
+    height: auto;
+    padding-right: 60px;
+}
+
+.sec-1 .img1 {
+    padding: 0px 0 20px 0;
+    width: 60px;
+}
+
+.sec-1 h1 {
+    font-size: 60px;
+    color: #5f2ee5;
+    margin-bottom: 20px;
+}
+
+.sec-1 p {
+    font-size: 18px;
+    color: #3f3c3d;
+    line-height: 35px;
+    letter-spacing: .5px;
+}
+
+.sec1-para {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+.sec1-para p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.sec1-para-child {
+    padding: 40px;
+}
+
+.sec1-para-child div {
+    margin-top: 15px;
+}
+
+.sec1-para-child p {
+    margin-bottom: 10px;
+}
+
+.child-para {
+    display: flex;
+}
+
+.child-para img {
+    margin-right: 20px;
+    margin-top: 6px;
+    background-color: #ffff;
+}
+
+.sec-2 {
+    width: 50%;
+    height: auto;
+    padding: 35px 40px;
+    background-color: #5f2ee5;
+    border-radius: 10px;
+}
+
+.namediv1,
+.namediv3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+label {
+    color: #ffff;
+}
+
+.namediv1 input, .namediv3 input {
+    min-width: 225px;
+}
+
+input {
+    height: 50px;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 16px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border-style: none;
+    height: 50px;
+    margin-bottom: 35px;
+}
+
+.namediv2 input,
+.namediv4 input {
+    width: 100%;
+}
+
+.sec-2 button {
+    background-color: #3da291;
+    color: #ffff;
+    padding: 15px 40px;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 16px;
+}
+
+.footer {
+    width: 80%;
+    height: 400px;
+    margin: 100px auto 50px auto;
+}
+
+.footer img {
+    margin-bottom: 60px;
+}
+
+.copy-sec ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: #555050;
+}
+
+.copy-sec {
+    display: flex;
+}
+
+.child1 {
+    width: 30%;
+}
+
+.child2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    margin-right: 60px;
+}
+
+.child2 ul li:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 80%;
+    height: 1px;
+    border: 3px solid blak;
+    background-color: #c5c2c3;
+    margin: 0 auto 60px auto;
+}
+
+.copy-rit-sec {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    font-size: 12px;
+    color: #a5a1a2;
+}
+
+.copy-rit-sec div {
+    margin-right: 30px;
+}
+
+.copy-rit-sec2 {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 12px;
+    color: #a5a1a2;
+    line-height: 25px;
+}
+
+.copy-rit-sec,
+.copy-rit-sec2 {
+    letter-spacing: 2px;
+}
